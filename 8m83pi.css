@@ -676,6 +676,8 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 #menu a, #userinfo_stats a, .tags a:hover, .search_form {
   color: #9A9A9A;
 }
+#stats_ratio {display: none !important;}
+
 
 #menu .active a {
   background-color: #1c1c1c;
@@ -708,7 +710,6 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 }
 
 #nav_irc {display: none !important;}
-#stats_ratio {display: none !important;}
 
 /*
 #nav_useredit, #nav_logout, #nav_invite, #nav_donate, #nav_store {
