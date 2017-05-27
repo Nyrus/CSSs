@@ -707,6 +707,8 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   height: 15px;
 }
 
+#nav_irc {display: none !important;}
+
 /*
 #nav_useredit, #nav_logout, #nav_invite, #nav_donate, #nav_store {
     opacity: 0;
