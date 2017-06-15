@@ -678,11 +678,6 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 }
 #stats_ratio {display: none !important;}
 
-.noty_button_clear.brackets{
-display: none;
-}
-
-
 #menu .active a {
   background-color: #1c1c1c;
   color: #F9A440;
@@ -2259,7 +2254,10 @@ li.graph .center_poll {
 .noty_message {
   padding: 8px 10px 0px !important;
 }
-
+ 
+.noty_button_clear {
+display: none;
+}
 /* New user stuff */
 .user_options .textarea_wrap {
   width: 486px;
