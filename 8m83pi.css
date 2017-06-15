@@ -678,7 +678,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 }
 #stats_ratio {display: none !important;}
 
-#noty_button_clear{
+#brackets noty_button_clear{
 display: none;
 }
 
