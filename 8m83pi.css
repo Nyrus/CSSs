@@ -677,6 +677,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   color: #9A9A9A;
 }
 #stats_ratio {display: none !important;}
+#stats_required {display: none !important;}
 
 #menu .active a {
   background-color: #1c1c1c;
@@ -703,11 +704,12 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   padding: 13px 7px 15px;
 }
 
-#nav_userinfo, #nav_useredit, #nav_logout, #nav_upload, #nav_invite, #nav_donate, #nav_store {
+#nav_userinfo, #nav_useredit, #nav_upload, #nav_invite, #nav_donate, #nav_store {
   display: inline-block !important;
   height: 15px;
 }
 
+#nav_logout {display: none !important;}
 #nav_irc {display: none !important;}
 
 /*
